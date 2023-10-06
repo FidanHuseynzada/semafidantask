@@ -1,0 +1,40 @@
+#header{
+    background-color: #212529;
+    .head {
+        margin: 0 auto;
+        width: 50%;
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        @include head();
+        padding-top: 30px;
+    }
+    p{
+        color: #676d6c;
+        text-align: center;
+        font-family: serif;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    .button{
+        text-align: center;
+        padding-bottom: 30px;
+        .start{
+            @include head(#0D6EFD);
+            font-size: 20px;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 8px;
+        }
+        .learn{
+            background-color: #212529;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            padding: 15px 20px;
+            border: 1px solid white;
+            border-radius: 8px;
+        }
+    }
+}
+}

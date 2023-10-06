@@ -1,0 +1,43 @@
+#header {
+  background-color: #212529;
+}
+#header .head {
+  margin: 0 auto;
+  width: 50%;
+}
+#header .head h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+#header .head p {
+  color: #676d6c;
+  text-align: center;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+#header .head .button {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#header .head .button .start {
+  background-color: #0D6EFD;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+#header .head .button .learn {
+  background-color: #212529;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 15px 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+}/*# sourceMappingURL=main.css.map */
